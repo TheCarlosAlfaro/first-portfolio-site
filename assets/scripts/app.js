@@ -9,6 +9,10 @@ function makeWords() {
       weight: 12.5
     },
     {
+      text: 'wordpress',
+      weight: 11
+    },
+    {
       text: 'javascript',
       weight: 13
     },
@@ -17,20 +21,24 @@ function makeWords() {
       weight: 12
     },
     {
-      text: 'programming',
-      weight: 10
-    },
-    {
       text: 'nodejs',
       weight: 11
     },
     {
       text: 'npm',
-      weight: 9
+      weight: 10
     },
     {
-      text: 'web development',
+      text: 'sass',
       weight: 10
+    },
+    {
+      text: 'gulp',
+      weight: 10
+    },
+    {
+      text: 'git',
+      weight: 9
     },
     {
       text: 'php',
@@ -47,6 +55,10 @@ function makeWords() {
     {
       text: 'bootstrap',
       weight: 10
+    },
+    {
+      text: 'react',
+      weight: 9
     }
     /* ... */
   ];
@@ -77,7 +89,7 @@ function designForm() {
 $(document).ready(function() {
   Typed.new('#writing-text', {
     strings: [
-      'am a WordPress Web Developer.',
+      'am a WordPress developer.',
       'love all things JavaScript ',
       'also teach programming to people.',
       'solve problems.'

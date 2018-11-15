@@ -176,6 +176,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
 }
 
+ul {
+	margin-left: 0;
+}
+
 /*** work ***/
 #work {
 	padding: 6em 4em 3em;
